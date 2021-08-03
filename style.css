@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+header{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.ini{
+    display: flex;
+    flex-flow: wrap column;
+    align-items:flex-end;
+    margin-right: 25px;
+    margin-top: 100px;
+}
+#avatar{
+    border-radius: 50%;
+}
+.ini h1{
+    font-size: 30px;
+    direction: rtl;
+}
+.ini p{
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+.flex-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 200px;
+}
+.card-recent img{
+    border-radius: 10px ;
+    margin-right: 140px;
+}
+section {
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+section h2{
+    font-size: 2em;
+    margin-top: 130px;
+}
+section h3{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+@media screen and (max-width: 768px){
+    section{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 522px){
+    .ini h1{
+        font-size: 20px;
+    }
+    .ini p{
+        font-size: 10px;
+    }
+}
