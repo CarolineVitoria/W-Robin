@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -57,6 +58,33 @@ section h3{
 img{
     max-width: 100%;
     display: block;
+}
+.pp{
+    margin-bottom: 30px;
+}
+.widget{
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+.form2{
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    flex: 1 1 100px;
+}
+.form1{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+.nm{
+    padding: 13px 60px;
+    max-width: 100%;
+}
+#message{
+    padding: 39px 73px;
+    max-width: 100%;
 }
 @media screen and (max-width: 768px){
     section{
