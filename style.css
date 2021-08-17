@@ -7,6 +7,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     display: grid;
     grid-template-columns: 35% 65%;
+    grid-template-rows: auto 1fr auto;
 }
 header{
     background-image: url(images/bg.jpg);
@@ -65,27 +66,46 @@ img{
 .widget{
     border-radius: 5px;
     background-color: #ccc;
+    max-width: 100%;
 }
-
-.form2{
+.nm{
+    width: 20em;
+    height: 50px;
+    padding-left: 2px;
+    max-width: 100%;
+}
+::placeholder{
+    font-size: 17px;
+}
+.form-address{
     display: flex;
-    flex-flow: wrap column;
-    align-items: center;
-    flex: 1 1 100px;
+    flex-flow: wrap row;
 }
 .form1{
     display: flex;
     flex-flow: wrap row;
-    justify-content: center;
+    justify-content: space-between;
 }
-.nm{
-    padding: 13px 60px;
-    max-width: 100%;
+.form2{
+    display: flex;
+    flex-flow: wrap column ;
+    margin-top: 10px;
 }
-#message{
-    padding: 39px 73px;
-    max-width: 100%;
+.form2 :nth-child(2){
+    align-self:center;
+    margin-top: 5px;
+    width: 100px;
 }
+.form2 :nth-child(1){
+    height: 80px;
+}
+.form1 :nth-child(1){
+    margin-right: 10px;
+}
+.address{
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 768px){
     section{
         margin-right: 10px;
