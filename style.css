@@ -8,6 +8,7 @@ body{
     display: grid;
     grid-template-columns: 35% 65%;
     grid-template-rows: auto 1fr auto;
+    color: #737e87;
 }
 header{
     background-image: url(images/bg.jpg);
@@ -27,6 +28,9 @@ header{
 #avatar{
     border-radius: 50%;
 }
+#nathan{
+    color: white;
+}
 .ini h1{
     font-size: 30px;
     direction: rtl;
@@ -44,6 +48,9 @@ header{
     border-radius: 10px ;
     margin-right: 140px;
 }
+.p-secund{
+    margin-bottom: 10px;
+}
 section {
     margin-left: 60px;
     margin-bottom: 15px;
@@ -54,7 +61,7 @@ section h2{
 }
 section h3{
     font-size: 1.5em;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 img{
     max-width: 100%;
@@ -94,7 +101,6 @@ img{
 .form2 :nth-child(2){
     align-self:center;
     margin-top: 5px;
-    width: 100px;
 }
 .form2 :nth-child(1){
     height: 80px;
@@ -105,7 +111,60 @@ img{
 .address{
     margin-left: 10px;
 }
-
+section h4{
+    font-size: 1.3em;
+    margin: 15px 0px;
+}
+p code{
+    background-color: rgb(245, 245, 245);
+    border: solid 2px #efefef;
+    border-radius: 3px;
+    padding-left: 3px;
+}
+blockquote{
+    border-left: solid 2px #efefef;
+    margin-top: 15px;
+}
+blockquote p{
+    margin: 0 0 13px 15px;
+}
+pre{
+    background-color: rgb(247, 247, 247);
+    border: solid 2px #efefef);
+    border-radius: 5px;
+    width: 700px;
+}
+.botao{
+    border-radius: 5px;
+    border-color: #efefef;
+    font-size: .9em;
+}
+.verde{
+    background-color: #49bf9d;
+    color: white;
+}
+.branco{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+#botao1{
+    width: 90px;
+    height: 37px;
+    margin-top: 20px;
+}
+#bt-potifolio{
+    padding: 10px;
+}
+#bt-form{
+    padding: 5px 20px; 
+    width: 90px;
+    height: 37px;
+}
+.bt-duplo{
+    width: 90px;
+    height: 37px;
+}
 @media screen and (max-width: 768px){
     section{
         margin-right: 10px;
