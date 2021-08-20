@@ -205,6 +205,12 @@ h5{
     width: 180px;
     height: 37px;
 }
+.u1{
+    margin-top: 10px;
+}
+.u{
+    margin-top: 10px;
+}
 thead{
     background-color: #ccc;
 }
@@ -235,7 +241,6 @@ td{
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:;
         grid-template-areas: "header" "main";
     }
     header{
