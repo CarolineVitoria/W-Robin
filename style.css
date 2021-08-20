@@ -59,6 +59,7 @@ main{
 section {
     margin-left: 60px;
     margin-bottom: 15px;
+    margin-right: 60px;
 }
 section h2{
     font-size: 2em;
@@ -216,12 +217,37 @@ thead{
 }
 table{
     width: 100%;
+    margin-bottom: 20px;
 }
 th{
     padding: 10px 0;
 }
 td{
     padding: 10px 0;
+}
+.form-flex-2{
+    display: flex;
+    flex-flow: column wrap;
+}
+.nms{
+    height: 37px;
+}
+.select{
+    margin-top: 15px;
+    height: 45px;
+}
+option{
+    background-color: #efefef;
+}
+.text{
+    height: 120px;
+}
+.bt-duplo-form2{
+    margin-top: 10px;
+}
+.imagem-full{
+    width: 100%;
+    border-radius: 5px;
 }
 @media screen and (max-width: 768px){
     section{

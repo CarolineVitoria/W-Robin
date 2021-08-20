@@ -77,8 +77,8 @@
             <div class="form-address">
                 <form action="" method="POST">
                     <div class="form1">
-                        <input type="text" name="text" id="name" class="nm widget" placeholder="Nome">
-                        <input type="email" name="email" id="eml" class="nm widget" placeholder="Email">
+                        <input type="text" name="textnome" class="nm widget" placeholder="Nome">
+                        <input type="email" name="email" class="nm widget" placeholder="Email">
                     </div>
                     <div class="form2">
                         <textarea name="msg" id="message" class="widget widget-block" placeholder="Sua mensagem"></textarea>
@@ -203,6 +203,37 @@
 
                 <tr>
             </table>
+            <h4>Forms</h4>
+            <form class="form-flex-2">
+                <label for="name">Nome</label>
+                <input type="text" name="textnome2" id="name" class="widget nms">
+                <label for="email">Email</label>
+                <input type="email" name="email2" id="email" class="widget nms">
+
+                <select class="widget select">
+                    <option value="0">Selecione um pacote de fotos...</option>
+                    <option value="1">Sambala</option>
+                    <option value="2">Lago Parime</option>
+                    <option value="3">El Dorado</option>
+                    <option value="4">Kill Bill: Vol.1</option>
+                </select>
+
+                <label><input type="radio" value="Media" name="resolucao"> Média Resolução</label>
+                <label><input type="radio" value="Alta" name="resolucao"> Alta Resolução</label>
+                <label><input type="radio" value="Ultra" name="resolucao"> Ultra Resolução</label>
+
+                <label for="text">Text</label>
+                <input type="text" name="text" id="text" class="widget text">
+
+                <label><input type="checkbox" name="eml-conf" value="1">Envie-me um email de confirmação</label>
+                <label><input type="checkbox" name="human" value="1">Sou humano</label>
+            </form>
+            <input type="button" value="Enviar" class="botao verde bt-duplo bt-duplo-form2">
+            <input type="button" value="Limpar" class="botao branco bt-duplo bt-duplo-form2">  
+        </section>
+        <section>
+            <h3>Imagens</h3>
+            <img src="images/fulls/mountains.jpg" alt="Foto de uma rua, com um carro estacionado e pessoas andando" class="imagem-full">
         </section>
     </main>
 </body>
