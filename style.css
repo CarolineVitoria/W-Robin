@@ -11,8 +11,9 @@ body{
     color: #737e87;
 }
 header{
-    background-image: url(images/bg.jpg);
-    background-repeat: no-repeat;
+    background-image: url(images/bg.jpg);  
+    background-position: left top;
+    background-size: cover;
     grid-area: header;
     position: sticky;
     top: 0;
@@ -20,6 +21,7 @@ header{
 }
 main{
     grid-area: main;
+    margin: 130px 60px 0px 60px;
 }
 .ini{
     display: flex;
@@ -44,6 +46,16 @@ main{
     color: rgba(0, 0, 0, 0.3);
     margin-top: 10px;
 }
+a{
+    text-decoration: none;
+    border-bottom: dotted 1px;
+}
+.link-header{
+    color: #737e87;
+}
+.link-header:hover{
+    color: #49bf9d;
+}
 .flex-card{
     display: flex;
     flex-wrap: wrap;
@@ -57,13 +69,11 @@ main{
     margin-bottom: 10px;
 }
 section {
-    margin-left: 60px;
     margin-bottom: 15px;
-    margin-right: 60px;
 }
 section h2{
     font-size: 2em;
-    margin-top: 130px;
+    
 }
 section h3{
     font-size: 1.5em;
@@ -78,7 +88,7 @@ img{
 }
 .widget{
     border-radius: 5px;
-    background-color: #ccc;
+    background-color: rgb(245, 245, 245);
     max-width: 100%;
 }
 .nm{
@@ -120,6 +130,9 @@ img{
 section h4{
     font-size: 1.3em;
     margin: 15px 0px;
+}
+.link2{
+    color: #49bf9d;
 }
 p code{
     background-color: rgb(245, 245, 245);
@@ -248,6 +261,19 @@ option{
 .imagem-full{
     width: 100%;
     border-radius: 5px;
+}
+.container-img{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.cards2{
+    margin-top: 4px;
+    border-radius: 5px;
+}
+#avatar2{
+    border-radius: 5px;
+  
 }
 @media screen and (max-width: 768px){
     section{
